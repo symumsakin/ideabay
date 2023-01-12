@@ -4,7 +4,7 @@ nav {
   font-weight: 400;
   font-size: 16px;
   line-height: 13px;
-  color: #2C2C2C;
+  color: #2c2c2c;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -31,9 +31,24 @@ nav ul li {
   margin-right: 18px;
   padding: 5px 10px;
   text-align: center;
-  color: #2C2C2C;
+  color: #2c2c2c;
   border: 1px solid #000000;
   border-radius: 20px;
   letter-spacing: -0.007em;
   background-color: transparent;
+}
+h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 58px;
+  
+  margin: 252px 18px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.005em;
+
+  color: #000000;
 }
