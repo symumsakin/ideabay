@@ -18,6 +18,9 @@ nav ul {
   align-items: center;
   list-style: none;
 }
+ul{
+  margin-left: -60px;
+}
 nav ul li {
   margin-left: 44.25px;
 }
@@ -59,9 +62,13 @@ h1 {
 
   color: #000000;
 }
-.img1 {
+.vid1 {
   height: 90%;
   width: 99.9%;
+}
+.vid2{
+  width: 468px;
+height: 263px;
 }
 .psub {
   color: #2c2c2c;
@@ -86,4 +93,17 @@ h1 {
   border-radius: 8px;
   background-color: transparent;
   margin-top: 8px;
+}
+/* .third-portion1{
+  height: auto;
+  width: fit-content;
+} */
+
+
+/* responsiveness */
+@media only screen and (max-width: 768px) {
+  
+  li {
+    font-size: 52%;
+  }
 }
