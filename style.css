@@ -1,4 +1,4 @@
-*{
+* {
   font-family: Helvetica;
 }
 nav {
@@ -21,7 +21,7 @@ nav ul {
 nav ul li {
   margin-left: 44.25px;
 }
-a{
+a {
   text-decoration: none;
   color: #2c2c2c;
 }
@@ -50,7 +50,7 @@ h1 {
   font-weight: 400;
   font-size: 53px;
   line-height: 58px;
-  
+
   margin: 252px 18px;
 
   display: flex;
@@ -59,13 +59,31 @@ h1 {
 
   color: #000000;
 }
-.img1{
+.img1 {
   height: 90%;
-  width: 99.90%;
+  width: 99.9%;
 }
-.psub{
-  color: #2C2C2C;
+.psub {
+  color: #2c2c2c;
+  line-height: 0px;
 }
-.psub1{
+.psub1 {
   color: #787878;
+  line-height: 10px;
+}
+.psub2 {
+  color: #2c2c2c;
+  line-height: 0px;
+}
+.psub3 {
+  color: #787878;
+  line-height: 10px;
+}
+.new-btn {
+  font-size: 10px;
+  line-height: 10px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  background-color: transparent;
+  margin-top: 8px;
 }
