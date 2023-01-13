@@ -18,7 +18,7 @@ nav ul {
   align-items: center;
   list-style: none;
 }
-ul{
+ul {
   margin-left: -60px;
 }
 nav ul li {
@@ -66,10 +66,21 @@ h1 {
   height: 90%;
   width: 99.9%;
 }
-.vid2{
+.vid2 {
   width: 468px;
-height: 263px;
+  height: 263px;
+  margin-right: 16px;
 }
+.vid3 {
+  width: 850px;
+  height: 522.57px;
+  margin-top: -21.7px;
+}
+.third-portion{
+  display: flex;
+  margin-top: 80px;
+}
+
 .psub {
   color: #2c2c2c;
   line-height: 0px;
@@ -86,6 +97,16 @@ height: 263px;
   color: #787878;
   line-height: 10px;
 }
+.psub4{
+  margin-top: -8px;
+  color: #2c2c2c;
+  line-height: 0px;
+}
+.psub5{
+  margin-top: -1px;
+  color: #787878;
+  line-height: 10px;
+}
 .new-btn {
   font-size: 10px;
   line-height: 10px;
@@ -94,15 +115,9 @@ height: 263px;
   background-color: transparent;
   margin-top: 8px;
 }
-/* .third-portion1{
-  height: auto;
-  width: fit-content;
-} */
-
 
 /* responsiveness */
 @media only screen and (max-width: 768px) {
-  
   li {
     font-size: 52%;
   }
