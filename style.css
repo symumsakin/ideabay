@@ -76,9 +76,24 @@ h1 {
   height: 522.57px;
   margin-top: -21.7px;
 }
+.vid4{
+  width: 655px;
+  height: 394px;
+  margin-right: 25px;
+}
+.vid5{
+  margin-top: 1px;
+  width: 655px;
+  height: 394px;
+}
 .third-portion{
   display: flex;
   margin-top: 80px;
+}
+
+.fourth-portion{
+  display: flex;
+  /* margin-top: 80px; */
 }
 
 .psub {
@@ -114,6 +129,38 @@ h1 {
   border-radius: 8px;
   background-color: transparent;
   margin-top: 8px;
+}
+
+
+h2{
+  margin-top: 25px;
+  padding-left: 18px;
+  font-family: Helvetica;
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #2C2C2C;
+}
+.h2p{
+  padding-left: 18px;
+  width: 457px;
+height: 105px;
+  font-family: Helvetica;
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+margin-bottom: 100px;
+
+
+display: flex;
+align-items: center;
+
+color: #787878;
 }
 
 /* responsiveness */
